@@ -136,7 +136,7 @@ General Strategies       | Specific Strategies           | Abbreviation         
 
 ## Few-shot change detection methods
 
-| Strategies         | Method                                                                    | Datasets                                                                                                                                        | Dataset Type  |
+| Strategies         | Method                                                                    | Datasets                                                                                                                                        | Publication  |
 |--------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Meta-learning      | BiG-FSLF [[paper](https://doi.org/10.1109/TGRS.2023.3292249)]             | BiG-FSLF: A Cross Heterogeneous Domain Few-Shot Learning Framework Based on Bidirectional Generation for Hyperspectral Image Change Detection   | TGRS2023      |
 | Metric learning    | FSNN [[paper](https://doi.org/10.1109/IGARSS47720.2021.9554705)]          | Sar Image Change Detection via a Few-Shot Learning-Based Neural Network                                                                         | IGARSS2021    |
@@ -149,7 +149,7 @@ General Strategies       | Specific Strategies           | Abbreviation         
 ## Unsupervised change detection methods
 
 
-| General Strategies                 | Specific Strategies                 | Method                                                                  | Datasets                                                                                                                                                          | Dataset Type  |
+| General Strategies                 | Specific Strategies                 | Method                                                                  | Datasets                                                                                                                                                          | Publication  |
 |------------------------------------|-------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Deep features comparison methods   | Pre-detection supervision           | AASS-CNN [[paper](https://doi.org/10.1016/j.jag.2022.102749)]           | A novel unsupervised binary change detection method for VHR optical remote sensing imagery over urban areas                                                       | JAG2022       |
 |                                    |                                     | ASFA [[paper](https://doi.org/10.3390/rs14122834)]                      | Remote Sensing Change Detection Based on Unsupervised Multi-Attention Slow Feature Analysis                                                                       | RS2022        |
