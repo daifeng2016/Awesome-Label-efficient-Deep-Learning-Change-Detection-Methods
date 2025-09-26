@@ -1,5 +1,14 @@
 # Awesome-Label-efficient-Deep-Learning-Change-Detection-Methods
 This repository is for sharing the LE-DLCD methods.
+
+# Introduction
+The rapid development of deep learning techniques has revolutionized various remote sensing applications, which is especially true for change detection (CD) areas. Consequently, the past few years has seen a surge of deep learning change detection (DLCD) techniques with unparalleled improvements in precision, efficiency, and automation.  Despite their huge success, these methods often follow a data-driven routine, where massive labeled data is required to guarantee network parameters learning. However, it is costly and labor-intensive to obtain sufficient labeled data for CD task, especially pixel-level annotations. In such context, label-efficient DLCD (LE-DLCD) techniques have garnered increasing attention, which are capable of training CD networks with incomplete labels, inexact labels or even no explicit labels.  In this review, we conducted a comprehensive survey of state-of-the-art label-efficient DLCD methods, which are categorized into six schemes of semi-supervised CD, weakly-supervised CD, self-supervised CD, active learning CD, few-shot CD, and unsupervised CD. Subsequently, each scheme is further categorized into finer subcategories for in-depth summarization and analysis. Next, we make systematic quantitative comparisons of typical LE-DLCD methods to provide valuable guidance for real-world scenarios. Finally, the challenges and future directions of LE-DLCD are presented in detail, which aims to shed lights and inspirations on this area for CD community.
+
+# Paradigm and Publicaiton trends of LE-DLCD
+<img width="975" height="940" alt="image" src="https://github.com/user-attachments/assets/3eda9d20-29d5-4349-adf3-cb0e34c32149" />
+<img width="973" height="463" alt="image" src="https://github.com/user-attachments/assets/46a10fa4-02db-4967-a408-9a0f0a7552b9" />
+
+
 ## Semi-supervised change detection methods
 
 | General Strategies        | Specific Strategies                           | Abbreviation                                                                                                                                                                         | Title                                                                                                                                                  | Publication                                                | 
@@ -194,4 +203,20 @@ General Strategies       | Specific Strategies           | Abbreviation         
 |                                    | Generative augmentation approaches  | I3PE [[paper](https://doi.org/10.1016/j.isprsjprs.2023.11.004)]         | Exchange means change: An unsupervised single-temporal change detection framework based on intra- and inter-image patch exchange                                  | isprsjprs2023 |
 |                                    |                                     | STCA [[paper](https://doi.org/10.1016/j.rse.2024.114416)]               | Towards transferable building damage assessment via unsupervised single-temporal change adaptation                                                                | RSE2024       |
 |                                    |                                     | PRBCD-Net [[paper](https://doi.org/10.1109/TGRS.2023.3314217)]          | PRBCD-Net: Predict-Refining-Involved Bidirectional Contrastive Difference Network for Unsupervised Change Detection                                               | TGRS2023      |
+
+# Citation
+Please cite our paper if you find it is useful for your research.
+```
+@article{peng2025toward,
+  title={Toward Label-Efficient Deep Learning Change Detection for Remote Sensing Imagery: A Comprehensive Review},
+  author={Peng, Daifeng and Liu, Min and Zhang, Yongjun and Guan, Haiyan},
+  journal={The Photogrammetric Record},
+  volume={40},
+  number={191},
+  pages={e70021},
+  year={2025},
+  publisher={Wiley Online Library}
+}
+```
+
 
